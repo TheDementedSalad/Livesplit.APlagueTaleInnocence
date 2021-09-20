@@ -13,6 +13,7 @@ state("APlagueTaleInnocence_x64", "Epic")
     bool loading : "WwiseLibPCx64R.dll", 0x262521;
     int playerControl : 0x152E6DC;
     string50 Map : 0x016AADC0, 0x10, 0x110, 0xD8, 0x10, 0x30, 0x170, 0x260;
+    int cutsceneState : 0x164B9F4;
 }
 
 state("APlagueTaleInnocence_x64", "Xbox")
