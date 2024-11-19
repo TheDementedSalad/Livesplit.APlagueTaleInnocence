@@ -120,7 +120,7 @@ split
 
 isLoading
 {
-    return current.loading;
+    return current.loading || current.cutsceneState != 0;
 }
 
 exit
